@@ -23,11 +23,10 @@ myCaptha = new captchaCV(container_id, placeholder_inp, nChars, captchaWidth, ca
 ```
 ### Properties:
 
-**container_id** (string) - id DOM-элемента, контейнера, в котором должна быть созданы элементы captcha;  **placeholder_inp** (string|null) - значение атрибута placeholder элемента input,
-в который должен вводится captcha-код. По умолчанию: "please enter verification code"; 
-**nChars** (integer|null) - количество символов в captcha. По умолчанию: 6;  
-**captchaWidth** (integer|null) - длина изображения captcha в px. По умолчанию: 150;  
-**captchaHeight** (integer|null) - длина изображения captcha в px. По умолчанию: 30;
+**container_id** (string) - - id of the DOM element, the container in which the captcha elements should be created;  **placeholder_inp** (string|null) - the value of the placeholder attribute of the input element where the captcha code should be entered. By default: "please enter verification code"; 
+**nChars** (integer|null) - number of characters in captcha. Default: 6;  
+**captchaWidth** (integer|null) - captcha image length in px. Default: 150; 
+**captchaHeight** (integer|null) - captcha image height in px. Default: 30;
 
 ### Methods:
 
