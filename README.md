@@ -25,8 +25,8 @@ myCaptha = new captchaCV(container_id, placeholder_inp, nChars, captchaWidth, ca
 
 **container_id** (string) - id of the DOM element, the container in which the captcha elements should be created;    **placeholder_inp** (string|null) - the value of the placeholder attribute of the input element where the captcha code should be entered. By default: "please enter verification code";   
 **nChars** (integer|null) - number of characters in captcha. Default: 6;    
-**captchaWidth** (integer|null) - captcha image length in px. Default: 150;   
-**captchaHeight** (integer|null) - captcha image height in px. Default: 30;  
+**captchaWidth** (integer|null) - captcha image length in px. By default: 150;   
+**captchaHeight** (integer|null) - captcha image height in px. By default: 30;  
 
 ### Methods:
 
