@@ -7,8 +7,7 @@ Author: Vladimir Kheifets <vladimir.kheifets.@online.de>
 
 Copyright &copy; 2024 Vladimir Kheifets All Rights Reserved
 
-I used the code of generating the image of the captcha code, published on codepen here  
-[https://codepen.io/guanqi/pen/mdbXQOJ](https://codepen.io/guanqi/pen/mdbXQOJ)  
+I used the code of generating the image of the captcha code, published on codepen [here](https://codepen.io/guanqi/pen/mdbXQOJ)    
 I express my heartfelt gratitude to the author.
 
 The captchaCV class provides the creation of captcha and verification of the entered captcha code.
