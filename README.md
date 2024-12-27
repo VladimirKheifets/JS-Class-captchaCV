@@ -56,8 +56,8 @@ For example, for the container id "captcha" an HTML code will be created:
   </div>
 </div>
 ```
-Then the create method is called and for the span element (with the 🗘 symbol - refresh)
-a "click" event handler is registered, in which the create method is also called.
+Then the **create** method is called and for the span element (with the 🗘 symbol - refresh)
+a "click" event handler is registered, in which the **create** method is also called.
 
 ## Using the captchaCV class
 
