@@ -1,0 +1,22 @@
+{
+  "dictionary":
+  {
+    "en":{
+    "msg0":"Code",
+    "msg":["is correct","must be filled","error"],
+    "placeH":"please enter code"
+    },
+
+    "de":{
+    "msg0":"Der Code",
+    "msg":["ist korrekt","muss im Feld enthalten sein","ist falsch"],
+    "placeH":"Bitte geben Sie den Code ein"
+    },
+
+    "ru":{
+      "msg0":"Код",
+      "msg":["введён верно","должен быть введён","введён неверно"],
+      "placeH":"пожалуйста, введите код"
+    }
+  }
+}
