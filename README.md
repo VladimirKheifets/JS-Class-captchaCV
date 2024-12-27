@@ -23,20 +23,20 @@ myCaptha = new captchaCV(container_id, placeholder_inp, nChars, captchaWidth, ca
 ```
 ### Properties:
 
-**container_id** (string) - id DOM-элемента, контейнера, в котором должна быть созданы элементы captcha  **placeholder_inp** (string|null) - значение атрибута placeholder элемента input,
-в который должен вводится captcha-код. По умолчанию: "please enter verification code"  
-**nChars** (integer|null) - количество символов в captcha. По умолчанию: 6  
-**captchaWidth** (integer|null) - длина изображения captcha в px. По умолчанию: 150  
-**captchaHeight** (integer|null) - длина изображения captcha в px. По умолчанию: 30
+**container_id** (string) - id DOM-элемента, контейнера, в котором должна быть созданы элементы captcha;  **placeholder_inp** (string|null) - значение атрибута placeholder элемента input,
+в который должен вводится captcha-код. По умолчанию: "please enter verification code"; 
+**nChars** (integer|null) - количество символов в captcha. По умолчанию: 6;  
+**captchaWidth** (integer|null) - длина изображения captcha в px. По умолчанию: 150;  
+**captchaHeight** (integer|null) - длина изображения captcha в px. По умолчанию: 30;
 
 ### Methods:
 
-The **create method** - provides generation of the captcha code and image in the canvas element.  
+The **create method** - provides generation of the captcha code and image in the canvas element;  
 
 The **verification method** - provides verification of the entered captcha code and returns an error code (integer):  
-0 - the captcha code is entered correctly  
-1 - the captcha code is not entered  
-2 - the captcha code does not match
+0 - the captcha code is entered correctly;  
+1 - the captcha code is not entered; 
+2 - the captcha code does not match;
 
 ### Creating a captcha.
 
